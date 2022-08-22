@@ -28,17 +28,17 @@ Installation
 -----------
 
 1. Dowload mpk file on host where checkmk is installed and run:
-   # Checmk 1.6 and 2.0 syntax
+   #### Checmk 1.6 and 2.0 syntax
    ```
    mkp install cmk-apcupsd-[VERSION].mpk
    ```
 
-   # old syntax
+   #### Older syntax
    ```
    check_mk -P install cmk-apcupsd-[VERSION].mpk
    ```
 2. [Optional] adjust voltage values to match local environment
-   # FIXME: which file and how?
+   ** FIXME: which file and how? **
 3. On host which run apcupsd install check_mk_agent, and put agents/plugins/apcupsd from this repo in check_mk_agent plugins directory (/usr/lib/check_mk_agent/plugins/)
 4. Rescan services for monitored host
 
@@ -46,12 +46,12 @@ Installation
 Authors
 -------
 
-The current author and maintainer of cmk-apcupsd is Christian Kreidl
+The current author and maintainer of *cmk-apcupsd* is Christian Kreidl
 (christiankreidl).  In 2021 the project was forked and updated to support
 Checkmk 2.0.
 
 
-The original author of cmk-apcupsd is Michal Skalski (michalskalski).  Between
+The original author of *cmk-apcupsd* is Michal Skalski (michalskalski).  Between
 2018 and 2020, the "repository has been archived by the owner.  It is now
 read-only."
 
