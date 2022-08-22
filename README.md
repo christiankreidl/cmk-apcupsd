@@ -1,4 +1,4 @@
-[cmk-apcupsd](http://github.com/aikinaro/cmk-apcupsd) Checkmk package for monitoring UPS managed by apcupsd
+[cmk-apcupsd](https://github.com/christiankreidl/cmk-apcupsd) Checkmk package for monitoring UPS managed by apcupsd
 =========
 
 Description
