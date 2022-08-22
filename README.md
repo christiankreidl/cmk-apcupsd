@@ -4,8 +4,8 @@
 Description
 ---------
 
-This is package for Checkmk which allow to checks status of ups managed by apcupsd demon.
-Package contain plugin for checkmk linux agent, templates for pnp4nagios and perfometer plugins.
+This is a package for Checkmk which checks status of UPS managed by apcupsd demon.
+Package includes a plugin for the checkmk linux agent, templates for pnp4nagios and perfometer plugins.
 You can monitor:
 * UPS status
 * battery charge
@@ -14,7 +14,7 @@ You can monitor:
 * input, output and battery voltage level
 * remaining runtime on battery
 
-Avaliable checks are dependet on which model of ups you have. Package was tested on APC Smart-UPS 2200 RM. 
+Available checks are dependent on which model UPS you have. Package was tested on APC Smart-UPS 2200 RM and Smart-UPS 1500.
  
 
 Requirements
@@ -27,8 +27,8 @@ Requirements
 Installation
 -----------
 
-1. Dowload mpk file on host where checkmk is installed and run:
-   #### Checmk 1.6 and 2.0 syntax
+1. Download MKP file on host where checkmk is installed and run:
+   #### Checkmk 1.6 and 2.0 syntax
    ```
    mkp install cmk-apcupsd-[VERSION].mpk
    ```
