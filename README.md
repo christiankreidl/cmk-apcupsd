@@ -20,7 +20,7 @@ Available checks are dependent on which model UPS you have. Package was tested o
 Requirements
 ---------
 
-1. [Checkmk](https://checkmk.com/download) (tested on 2.0p7 and 2.1)
+1. [Checkmk](https://checkmk.com/download) (tested on 2.0p7, 2.0p27, 2.1p2, and 2.1p10)
 2. [Apcupsd](http://www.apcupsd.org/)
 
 
@@ -37,8 +37,8 @@ Installation
    ```
    check_mk -P install cmk-apcupsd-[VERSION].mpk
    ```
-2. [Optional] adjust voltage values to match local environment
-   ** FIXME: which file and how? **
+2. [Optional] adjust voltage values to match local environment <br/>
+   **FIXME: add more details**
 3. On host which run apcupsd install check_mk_agent, and put agents/plugins/apcupsd from this repo in check_mk_agent plugins directory (/usr/lib/check_mk_agent/plugins/)
 4. Rescan services for monitored host
 
